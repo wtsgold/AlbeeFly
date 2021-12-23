@@ -49,7 +49,7 @@ public class ShootGame extends JPanel {
 
 	static {
 		try {
-			background = ImageIO.read(ShootGame.class.getResource("image/backgroundAlbee.jpg"));
+			background = ImageIO.read(ShootGame.class.getResource("image/background.png"));
 			start = ImageIO.read(ShootGame.class.getResource("image/start.png"));
 			airplane = ImageIO.read(ShootGame.class.getResource("image/airplane.png"));
 			bee = ImageIO.read(ShootGame.class.getResource("image/bee.png"));
